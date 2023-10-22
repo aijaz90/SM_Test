@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popular Movies View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="PopularMoviesViewController" id="BYZ-38-t0r" customClass="PopularMoviesViewController" customModule="SmallworldTesr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Movie List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69o-Yo-9u4">
+                                <rect key="frame" x="110.66666666666669" y="75" width="172" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.12156862745098039" green="0.71764705882352942" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RoO-Y6-hCx">
+                                <rect key="frame" x="0.0" y="155" width="393" height="697"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Mbd-XN-ILK">
+                                <rect key="frame" x="186.66666666666666" y="508.66666666666674" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmb-by-FfN">
+                                <rect key="frame" x="251.66666666666666" y="104" width="125.33333333333334" height="43"/>
+                                <color key="tintColor" red="0.5195358563005622" green="0.5" blue="0.73001444021664619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sort by name"/>
+                                <connections>
+                                    <action selector="sortedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YzK-w6-fSQ"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRd-Dq-HaY">
+                                <rect key="frame" x="154" y="46" width="85.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.086274509799999996" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.1803921568627451" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RoO-Y6-hCx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DDF-UP-VhD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RoO-Y6-hCx" secondAttribute="trailing" id="Nao-3h-pLS"/>
+                            <constraint firstItem="mRd-Dq-HaY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VZB-QS-C32"/>
+                            <constraint firstItem="Mbd-XN-ILK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="80" id="VbB-Xb-AtP"/>
+                            <constraint firstAttribute="bottom" secondItem="RoO-Y6-hCx" secondAttribute="bottom" id="a12-dc-PQR"/>
+                            <constraint firstItem="kmb-by-FfN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="hmM-g1-Tge"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="mRd-Dq-HaY" secondAttribute="top" constant="13" id="iry-Nt-itH"/>
+                            <constraint firstItem="kmb-by-FfN" firstAttribute="top" secondItem="69o-Yo-9u4" secondAttribute="bottom" constant="5" id="k30-an-y6E"/>
+                            <constraint firstItem="Mbd-XN-ILK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nCl-GX-8cn"/>
+                            <constraint firstItem="69o-Yo-9u4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="oc4-yM-xCj"/>
+                            <constraint firstItem="RoO-Y6-hCx" firstAttribute="top" secondItem="69o-Yo-9u4" secondAttribute="bottom" constant="56" id="tWB-ZN-2ux"/>
+                            <constraint firstItem="69o-Yo-9u4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uZY-XT-vo7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kmb-by-FfN" secondAttribute="trailing" constant="16" id="yXy-L1-csn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Mbd-XN-ILK" id="pPP-cM-GEu"/>
+                        <outlet property="nointernetLabel" destination="mRd-Dq-HaY" id="qG9-Fs-Bgf"/>
+                        <outlet property="popularMoviesTableView" destination="RoO-Y6-hCx" id="42z-Pr-4TU"/>
+                        <outlet property="sortButton" destination="kmb-by-FfN" id="mlc-my-KwP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110.68702290076335" y="-17.605633802816904"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="33T-8f-p00">
+            <objects>
+                <viewController storyboardIdentifier="MovieDetailsViewController" id="crL-iu-4gL" customClass="MovieDetailsViewController" customModule="SmallworldTesr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pOL-gW-fPe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuu-Zf-AR3">
+                                <rect key="frame" x="145.66666666666666" y="92" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="tableBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Movie Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jd-xR-NXs">
+                                <rect key="frame" x="32.999999999999993" y="151" width="86.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Description :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5v-UO-YvQ">
+                                <rect key="frame" x="33" y="204" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soc-ix-fhf">
+                                <rect key="frame" x="135.33333333333337" y="161.66666666666666" width="241.66666666666663" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhn-AL-gS0">
+                                <rect key="frame" x="16" y="233" width="361" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Kx3-Bo-kL2">
+                                <rect key="frame" x="186.66666666666666" y="428.66666666666669" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hmI-If-TlY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="9jd-xR-NXs" firstAttribute="top" secondItem="fuu-Zf-AR3" secondAttribute="bottom" constant="38" id="1Bf-6e-4a3"/>
+                            <constraint firstItem="Kx3-Bo-kL2" firstAttribute="centerY" secondItem="hmI-If-TlY" secondAttribute="centerY" id="3AE-P4-KcR"/>
+                            <constraint firstItem="Soc-ix-fhf" firstAttribute="centerY" secondItem="9jd-xR-NXs" secondAttribute="centerY" id="6QF-5T-Mze"/>
+                            <constraint firstItem="9jd-xR-NXs" firstAttribute="leading" secondItem="hmI-If-TlY" secondAttribute="leading" constant="33" id="9RN-PF-okw"/>
+                            <constraint firstItem="D5v-UO-YvQ" firstAttribute="top" secondItem="9jd-xR-NXs" secondAttribute="bottom" constant="32" id="9dP-D7-EyC"/>
+                            <constraint firstItem="fuu-Zf-AR3" firstAttribute="top" secondItem="hmI-If-TlY" secondAttribute="top" constant="33" id="Dwe-fB-68J"/>
+                            <constraint firstItem="hmI-If-TlY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="D5v-UO-YvQ" secondAttribute="trailing" symbolic="YES" id="Ey0-p3-eWa"/>
+                            <constraint firstItem="D5v-UO-YvQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Soc-ix-fhf" secondAttribute="bottom" constant="24" id="Hl0-6r-XT7"/>
+                            <constraint firstItem="Soc-ix-fhf" firstAttribute="leading" secondItem="9jd-xR-NXs" secondAttribute="trailing" constant="16" id="Kiy-wk-SuJ"/>
+                            <constraint firstItem="zhn-AL-gS0" firstAttribute="leading" secondItem="hmI-If-TlY" secondAttribute="leading" constant="16" id="LW2-bp-KeS"/>
+                            <constraint firstItem="fuu-Zf-AR3" firstAttribute="centerX" secondItem="hmI-If-TlY" secondAttribute="centerX" id="Tnx-lK-n6y"/>
+                            <constraint firstItem="hmI-If-TlY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zhn-AL-gS0" secondAttribute="bottom" constant="16" id="b17-5R-Imo"/>
+                            <constraint firstItem="D5v-UO-YvQ" firstAttribute="leading" secondItem="9jd-xR-NXs" secondAttribute="leading" id="f9t-hf-yuo"/>
+                            <constraint firstItem="hmI-If-TlY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9jd-xR-NXs" secondAttribute="trailing" symbolic="YES" id="iaU-95-fa6"/>
+                            <constraint firstItem="zhn-AL-gS0" firstAttribute="top" secondItem="D5v-UO-YvQ" secondAttribute="bottom" constant="8" symbolic="YES" id="oWm-YE-ywt"/>
+                            <constraint firstItem="hmI-If-TlY" firstAttribute="trailing" secondItem="Soc-ix-fhf" secondAttribute="trailing" constant="16" id="rys-2V-54h"/>
+                            <constraint firstItem="Kx3-Bo-kL2" firstAttribute="centerX" secondItem="hmI-If-TlY" secondAttribute="centerX" id="zdv-v1-sEz"/>
+                            <constraint firstItem="hmI-If-TlY" firstAttribute="trailing" secondItem="zhn-AL-gS0" secondAttribute="trailing" constant="16" id="zpy-ZD-Hwc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Kx3-Bo-kL2" id="wPP-jO-wmO"/>
+                        <outlet property="movieDescriptionLabel" destination="zhn-AL-gS0" id="nA6-GR-tW9"/>
+                        <outlet property="movieNameLabel" destination="Soc-ix-fhf" id="sRj-r6-Bkh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ect-kc-JDT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919.84732824427476" y="-18.30985915492958"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

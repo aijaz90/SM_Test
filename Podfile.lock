@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (5.8.0)
+  - DropDown (2.3.13)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - netfox (1.21.0)
+  - RxBlocking (5.1.3):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - RxTest (5.1.3):
+    - RxSwift (~> 5)
+  - SwiftyJSON (5.0.1)
+  - Swinject (2.8.3)
+  - SwinjectAutoregistration (2.8.3):
+    - Swinject (~> 2.8.3)
+
+DEPENDENCIES:
+  - DropDown
+  - Moya/RxSwift (~> 14.0.0)
+  - netfox
+  - RxBlocking (~> 5.1.1)
+  - RxCocoa (~> 5.1.1)
+  - RxSwift (~> 5.1.1)
+  - RxTest (~> 5.1.1)
+  - SwiftyJSON
+  - Swinject
+  - SwinjectAutoregistration
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - Moya
+    - netfox
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SwiftyJSON
+    - Swinject
+    - SwinjectAutoregistration
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  RxBlocking: 5aed110d3996c0a4b07340810b9ba230fa70df5c
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  RxTest: 937ba521d3f6dca7db49f76cd5d372cfce6091cb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+  SwinjectAutoregistration: e3ee378dc458acf78d176fc7fec3902603452667
+
+PODFILE CHECKSUM: 130af307cfe7b86c5843f03b2c8e481cb3375741
+
+COCOAPODS: 1.13.0

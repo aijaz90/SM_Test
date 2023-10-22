@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "13F855E6-BFB6-43ED-8143-D3F2EA5D95AF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A26742D-478C-494B-88FE-7E6825064683"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Coordinators/AppCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "runAuthFlow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38C1D6AE-1429-4750-88B7-EECE17438203"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "description"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78730B3B-769A-42FD-9DC2-7E03934B8374"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Moya/Sources/Moya/Response.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(statusCode:data:request:response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getPopularMovies(page:sortBy:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - ec359ba88af7c1d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, SmallworldTesr.BaseModel&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - 6a165a2c6ac41b08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; Moya.Response in SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, SmallworldTesr.BaseModel&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - ec359ba88af7c1d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, SmallworldTesr.BaseModel&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - 487945df5b644d70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, SmallworldTesr.PopularMoviesModel&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - 2f0ddf3aa818f01a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; Moya.Response in SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, SmallworldTesr.PopularMoviesModel&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - f4d4b238d4ce9a16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - e4f93daef59bc8d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; Moya.Response in SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - 704aea4d43972c11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;, sortBy: Swift.Optional&lt;Swift.String&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "6CC9F6C7-5750-4143-8EFA-BC47134D2206 - 68917c1b559af79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; Moya.Response in SmallworldTesr.PopularMovieAPICall.getPopularMovies(page: Swift.Optional&lt;Swift.Int&gt;, sortBy: Swift.Optional&lt;Swift.String&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;&gt;"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FEA3EED-0061-481C-9C8B-6E2251B8D6BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Network/Models/BaseModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getMovieDetails()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 26980300a3cbe6ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SmallworldTesr.SingleEntity&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 26980300a3cbe6ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SmallworldTesr.SingleEntity&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 8f9fa8cfa67fb753"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 8f9fa8cfa67fb753"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 8f9fa8cfa67fb7b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "B35C77EB-7362-40CF-8866-B79E8C1301C6 - 8f9fa8cfa67fb7b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.MovieDetailsModel&gt;) -&gt; () in SmallworldTesr.MovieDetailsViewModel.getMovieDetails() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "686C4236-F041-4683-8EE0-EEA308E6956D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Flow/Home/View/MovieDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "didGetMovieDetails(list:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "462D1539-64E4-45D1-8FCE-9A03A3F4C0BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Flow/Home/View/PopularMoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "didGetAnError(description:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4267F28A-329B-4329-B671-927124D5C46B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Flow/Home/ViewModel/PopularMoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getSortedMovie(isAscending:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AADFC3F-95EB-4438-BCAD-D8E00161B732"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Flow/Home/ViewModel/PopularMoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getPopularMoviesList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AADFC3F-95EB-4438-BCAD-D8E00161B732 - bcc56688ef0ee138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;) -&gt; () in SmallworldTesr.PopularMoviesViewModel.getPopularMoviesList(sortBy: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/PopularMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "3AADFC3F-95EB-4438-BCAD-D8E00161B732 - 261b04bb80edcbcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmallworldTesr.PopularMoviesViewModel.getPopularMoviesList() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/PopularMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "3AADFC3F-95EB-4438-BCAD-D8E00161B732 - 2543b29009047e10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SmallworldTesr.PopularMoviesModel&gt;) -&gt; () in SmallworldTesr.PopularMoviesViewModel.getPopularMoviesList() -&gt; ()"
+                  moduleName = "SmallworldTesr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aijazali/Desktop/Practice/SmallworldTesr/SmallworldTesr/Flow/Home/ViewModel/PopularMoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22962A9C-A9F2-4714-B744-D4668FFE322E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallworldTesr/Network/Services/Home/PopularMovieAPICall.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getPopularMovies(page:sortBy:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
